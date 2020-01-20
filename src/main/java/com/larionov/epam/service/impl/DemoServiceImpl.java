@@ -4,6 +4,8 @@ import com.larionov.epam.entity.MyQueue;
 import com.larionov.epam.repository.NameHotels;
 import com.larionov.epam.entity.Reservation;
 import com.larionov.epam.service.DemoService;
+import com.larionov.epam.thread.ConsumerThreadImpl;
+import com.larionov.epam.thread.ProducerThreadImpl;
 
 import java.util.LinkedList;
 import java.util.concurrent.locks.ReentrantLock;

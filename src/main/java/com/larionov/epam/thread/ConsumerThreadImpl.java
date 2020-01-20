@@ -1,4 +1,4 @@
-package com.larionov.epam.service.impl;
+package com.larionov.epam.thread;
 
 import com.larionov.epam.entity.MyQueue;
 import com.larionov.epam.entity.Reservation;

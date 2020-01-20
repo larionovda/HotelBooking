@@ -10,15 +10,15 @@ public class NameHotels {
         this.count = 0;
     }
 
-    public synchronized String[] getNamesOfHotels() {
+    public String[] getNamesOfHotels() {
         return namesOfHotels;
     }
 
-    public synchronized int getCount() {
+    public int getCount() {
         return count;
     }
 
-    public synchronized void setCount(int count) {
+    public void setCount(int count) {
         this.count = count;
     }
 }
